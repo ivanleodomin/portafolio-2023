@@ -1,7 +1,7 @@
-.container{
+.container {
   display: inline-block;
   cursor: pointer;
- margin-left: 18px;
+  margin-left: 18px;
 }
 
 .bar1,
@@ -14,14 +14,15 @@
   transition: 0.4s;
 }
 
-
 /* Rotate first bar */
 .show .bar1 {
   transform: translate(0, 11px) rotate(-45deg);
 }
 
 /* Fade out the second bar */
-.show .bar2 {opacity: 0;}
+.show .bar2 {
+  opacity: 0;
+}
 
 /* Rotate last bar */
 .show .bar3 {

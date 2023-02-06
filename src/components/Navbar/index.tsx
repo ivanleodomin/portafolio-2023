@@ -1,19 +1,16 @@
 import styles from "./styles.module.css";
 import MenuIcon from "../MenuIcon";
 import useToggle from "@/hooks/useToggle";
-import { useEffect } from "react";
+import Logo from "../Logo";
 
 export default function Navbar() {
   const [value, toggleActive] = useToggle(false);
-
-  useEffect(() => {
-    console.log("value: " + value);
-  }, [value]);
 
   return (
     <>
       <header className={styles.header}>
         <MenuIcon value={value} toggleActive={toggleActive} />
+        <Logo/>
       </header>
       <nav className={styles.menu} id={value ? styles.visibility : ""}>
         <div className={styles.shadow} onClick={() => toggleActive()}></div>

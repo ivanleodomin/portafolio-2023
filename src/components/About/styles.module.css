@@ -1,0 +1,18 @@
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20vw 0 20vw;
+  }
+  
+  .about h3 {
+    margin-top: 50px;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .about p {
+    margin-top: 22px;
+    font-size: 16px;
+  }
+  

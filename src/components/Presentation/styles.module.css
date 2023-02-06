@@ -1,5 +1,5 @@
 #home {
-  margin-top: 40px;
+  margin: 50px 50px;
   position: relative
 }
 
@@ -7,6 +7,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 150px 100px;
   padding-top: 50px;
 }
 
@@ -27,24 +28,6 @@
   font-size: 2rem;
 }
 
-.about {
-  margin-top: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0 20vw 0 20vw;
-}
-
-.about h3 {
-  font-size: 30px;
-  text-align: center;
-}
-
-.about p {
-  margin-top: 22px;
-  font-size: 16px;
-}
-
 .divider {
     border-top: 1px solid #bbb;
     width: 70vw;
@@ -53,5 +36,4 @@
     left: 15%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-    margin-top: 20px;
 }
