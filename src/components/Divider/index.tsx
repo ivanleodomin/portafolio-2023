@@ -4,11 +4,11 @@ import Image from "next/image";
 export default function Divider() {
   return (
     <div id={styles.divider}>
-      <Image
+      {/* <Image
         src="/dividers/divider.png"
         alt="divider"
         fill={true}
-/>
+/> */}
     </div>
   );
 }
