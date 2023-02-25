@@ -15,6 +15,14 @@
   border-radius: 100px;
 }
 
+.bar2 {
+  width: 25px;
+}
+
+.bar3 {
+  width: 18px;
+}
+
 /* Rotate first bar */
 .show .bar1 {
   transform: translate(0, 11px) rotate(-45deg);
@@ -27,5 +35,6 @@
 
 /* Rotate last bar */
 .show .bar3 {
+  width: 32px;
   transform: translate(0, -11px) rotate(45deg);
 }

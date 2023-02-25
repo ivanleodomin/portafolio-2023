@@ -1,0 +1,37 @@
+@import url("https://fonts.cdnfonts.com/css/chirp-2");
+
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profileImage {
+  border-radius: 50%;
+  padding: 1px 0 0 0;
+  background-color: rgb(206, 228, 243);
+}
+
+#name {
+  margin-left: 10px;
+  margin-top: -50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#name h3 {
+  font-family: "Chirp", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+#name h3:hover {
+  cursor: pointer;
+  border-bottom: 1px solid black; 
+}
+
+#name p {
+  color: grey;
+}
