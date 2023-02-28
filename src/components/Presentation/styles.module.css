@@ -1,12 +1,11 @@
 .presentation {
   display: inline-block;
-  margin: 90px 100px;
-  padding-top: 50px;
+  margin: 100px 30px;
+  padding: 50px;
   background-image: linear-gradient(to bottom right, #faed7d, #b5ead7);
   background-size: 200% 200%;
   animation: wave 2s infinite;
   border-radius: 50px;
-  height: 100%;
 }
 
 @keyframes wave {
@@ -26,12 +25,14 @@
   margin-top: 20px;
 }
 
-.titles h1 {
-  font-size: 4rem;
+.titles h3 {
+  font-size: 1.5em;
+  text-align: center;
+  margin-bottom: 26px;
 }
 
-.titles h3 {
-  font-size: 2rem;
+.titles p {
+  font-size: 3em;
 }
 
 .divider {
@@ -68,5 +69,4 @@
   align-items: center;
   padding: 10px;
   border-radius: 16px;
-  
 }

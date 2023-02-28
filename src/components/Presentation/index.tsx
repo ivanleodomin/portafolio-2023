@@ -8,10 +8,10 @@ export default function Presentation() {
     <section className={styles.presentation}>
       <TwitterPicture />
       <div className={styles.titles}>
-        <h3>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
-          ducimus harum adipisci exercitationem consequuntur rem odio! Placeat
-        </h3>
+        <h3>¡Hola! Bienvenido a mi portafolio</h3>
+        <p>
+       Un amante del desarrollo y la tecnologia, con hambre de conocimiento y con deseo de crecer.
+        </p>
       </div>
 
       <div className={styles.buttons}>
@@ -22,7 +22,7 @@ export default function Presentation() {
           Download resume
           <Image
             className={styles.profileImage}
-            src="/resume-icon.png"
+            src="/icons/resume.png"
             alt="resume icon"
             width={30}
             height={30}
