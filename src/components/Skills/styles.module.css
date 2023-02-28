@@ -1,8 +1,11 @@
+
+
 .title {
   text-align: center;
+  font-size: 30px;
 }
 
-.skills_content {
+.conten {
   margin: 50px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -54,7 +57,7 @@
 }
 
 @media (max-width: 900px) {
-  .skills_content {
+  .conten {
     grid-template-columns: 1fr;
   }
 

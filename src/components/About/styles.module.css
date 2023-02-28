@@ -1,18 +1,33 @@
-.about {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0 20vw 0 20vw;
+.title {
+  margin-top: 50px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  margin-bottom: 30px;
+  padding: 10px 70px;
+}
+
+.principalSection {
+  margin: 10px;
+}
+
+.secondSection h4, .secondSection p{
+ margin-bottom: 10px;
+}
+
+
+@media (max-width: 768px) {
+  .content {
+    grid-template-columns: 1fr;
   }
-  
-  .about h3 {
-    margin-top: 50px;
-    font-size: 30px;
+
+  .secondSection h4{
     text-align: center;
   }
-  
-  .about p {
-    margin-top: 22px;
-    font-size: 16px;
-  }
-  
+
+}

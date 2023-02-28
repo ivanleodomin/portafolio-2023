@@ -32,6 +32,10 @@
   margin-right: 16px;
 }
 
+.title h3{
+  text-align: center;
+}
+
 .details {
   display: flex;
   flex-direction: column;

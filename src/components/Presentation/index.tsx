@@ -1,5 +1,5 @@
 import styles from "./styles.module.css";
-import TwitterPicture from "../twitterPicture";
+import TwitterPicture from "../TwitterPicture";
 import Link from "next/link";
 import Image from "next/image";
 

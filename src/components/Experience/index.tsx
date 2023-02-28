@@ -7,7 +7,7 @@ const items: Work[] = [
     logo: {
       src: "/logos/cruce.png",
       height: 200,
-      width: 250
+      width: 150
     },
     titles: {
       position: "Software Engineer",

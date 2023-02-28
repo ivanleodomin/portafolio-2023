@@ -1,0 +1,28 @@
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(212, 169, 88);
+    padding: 10px 50px;
+    margin: 30px 50px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.info h3{
+    font-size: 30px;
+}
+
+.info p{
+    font-size: 20px;
+}
+
+.info a{
+    font-size: 15px;
+    font-weight: bold;
+    transition: .5s;
+}
+
+.info a:hover{
+    border-bottom: 1px solid #000;
+}
