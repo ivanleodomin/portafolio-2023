@@ -20,11 +20,24 @@ const PROJECTS_LIST: Project[] = [
     link: "https://github.com/",
     imageSrc: "/images/game.png",
   },
+  {
+    name: "Game!",
+    description: "Este es un game para jugar game fachero!",
+    link: "https://github.com/",
+    imageSrc: "/images/game.png",
+  },
+  {
+    name: "Game!",
+    description: "Este es un game para jugar game fachero!",
+    link: "https://github.com/",
+    imageSrc: "/images/game.png",
+  },
 ];
 
 export default function Projects() {
   return (
     <section>
+      <h1 className={styles.titles}>Projects</h1>
       {PROJECTS_LIST.map((project) => (
         <Project project={project} />
       ))}
@@ -40,7 +53,7 @@ function Project({ project }: Props) {
         <p>{project.description}</p>
         <Link href={project.link} >Conocer mas!</Link>
       </div>
-      <Image src={project.imageSrc} alt={""} height={100} width={100} />
+      <Image className={styles.image} src={project.imageSrc} alt={""} height={100} width={100} />
     </div>
   );
 }

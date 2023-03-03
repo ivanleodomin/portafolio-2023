@@ -45,7 +45,7 @@ const items: Work[] = [
     logo: {
       src: "/logos/navent.png",
       height: 100,
-      width: 170
+      width: 190
     },
     titles: {
       position: "Software Engineer",
