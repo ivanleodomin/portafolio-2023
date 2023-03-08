@@ -5,7 +5,7 @@ export default function Skills() {
   return (
     <>
       <section className={styles.section}>
-        <h1 className={styles.title}>Skills</h1>
+        {/* <h1 className={styles.title}>Skills</h1> */}
         <div className={styles.conten}>
           <div className={styles.column}>
             <div className={styles.icon}>
@@ -13,9 +13,9 @@ export default function Skills() {
             </div>
             <h1>Backend</h1>
             <p>
-              Me gusta desarrollar proyectos a partir del analisis profundo de
-              la problematica y asi decidir las tecnologias y practicas mas
-              optimas para el mismo
+              Encuentro fascinante desarrollar proyectos a partir del análisis
+              profundo de la problemática y así decidir las tecnologías y
+              prácticas más óptimas para el mismo.
             </p>
 
             <h3>Lenguajes</h3>
@@ -37,14 +37,16 @@ export default function Skills() {
             </div>
             <h1>Frontend</h1>
             <p>
-              Me gusta desarrollar proyectos a partir del analisis profundo de
-              la problematica y asi decidir las tecnologias y practicas mas
-              optimas para el mismo
+              Me gusta desarrollar aplicaciones con impacto visual y con
+              funcionalidades tanto interesantes como desafiantes para el
+              desarrollo.
             </p>
 
             <h3>Lenguajes</h3>
             <ul>
               <li>Javascript/Typescript</li>
+              <li>HTML</li>
+              <li>CSS/SASS</li>
             </ul>
             <h3>Librerias</h3>
             <ul>
@@ -61,7 +63,7 @@ export default function Skills() {
                 height={30}
               />
             </div>
-            <h1 style={{marginBottom: 0}}>Infraestructura</h1>
+            <h1 style={{ marginBottom: 0 }}>Infraestructura</h1>
             <h3>Cloud</h3>
             <ul>
               <li>AWS</li>
@@ -69,6 +71,13 @@ export default function Skills() {
               <li>Heroku</li>
               <li>Hostinger</li>
             </ul>
+            <h3>Bases de Datos</h3>
+            <ul>
+              <li>MongoDB</li>
+              <li>Postgres</li>
+              <li>Redis</li>
+            </ul>
+
             <h3>Brockers de mensajeria</h3>
             <ul>
               <li>Apache Kafka</li>

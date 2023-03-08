@@ -11,6 +11,8 @@
   border-radius: 50%;
   padding: 1px 0 0 0;
   background-color: rgb(206, 228, 243);
+  height: auto;
+  width: auto;
 }
 
 #name {

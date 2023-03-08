@@ -38,8 +38,8 @@ export default function Projects() {
   return (
     <section>
       <h1 className={styles.titles}>Projects</h1>
-      {PROJECTS_LIST.map((project) => (
-        <Project project={project} />
+      {PROJECTS_LIST.map((project, key) => (
+        <Project project={project} key={key} />
       ))}
     </section>
   );

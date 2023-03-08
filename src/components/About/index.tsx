@@ -7,30 +7,35 @@ export default function About() {
       <div className={styles.content}>
         <div className={styles.principalSection}>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Dignissimos hic animi soluta voluptatem quos molestias, nisi
-            laudantium cum tenetur nihil, perspiciatis delectus mollitia
-            distinctio, labore a consectetur dolorum voluptate sed! Lorem dolor
-            sit amet consectetur adipisicing elit. Officia, ducimus veritatis.
-            Nisi dolorum, id, maxime praesentium explicabo voluptas et aperiam,
-            laudantium illum consequatur sed quaerat non temporibus ratione
-            accusamus molestias?Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Voluptatum magnam ex delectus officia laboriosam
-            totam quia sint eveniet. Aspernatur est sint cum nobis voluptatem
-            facere nesciunt veritatis officia ratione magnam!
+            Soy un apasionado por mi trabajo, pero también creo en la
+            importancia de la empatía, la autocrítica y mejorar tanto en el
+            código como en mi persona. Me enorgullezco de la calidad y el
+            impacto de mi trabajo, pero siempre busco mejorar a través de la
+            reflexión y el aprendizaje. Me considero una persona empática y
+            abierta a diferentes perspectivas, lo que me permite trabajar de
+            manera efectiva en equipo y comunicarse de manera efectiva con los
+            clientes y el equipo de gestión. Además, tengo habilidades de
+            liderazgo desarrolladas, lo que me permite tomar decisiones
+            informadas y guiar a los miembros del equipo hacia la consecución de
+            objetivos comunes. Siempre estoy buscando nuevos desafíos y
+            oportunidades para crecer en mi carrera, y estoy entusiasmado por
+            seguir desarrollando mi conjunto de habilidades tanto técnicas como
+            interpersonales.
           </p>
         </div>
         <div className={styles.secondSection}>
-          <h4>Example</h4>
+          <h4>Que deseo aprender?</h4>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui sequi
-            explicabo fuga numquam repudiandae enim, veniam delectus provident
-            dolorum facilis sunt deserunt est. Optio!
+            Deseo seguir aprendiendo sobre golang para llegar a un nivel de
+            experticia más alto y mejorar más mi código en React. Aprender mas
+            buenas prácticas para pulir al máximo mi código y así llegar a
+            proyectos más escalables y confiables
           </p>
-          <h4>Example</h4>
+          <h4>Ademas del trabajo</h4>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam
-            saepe a deleniti inventore minima adipisci recusandae dicta?{" "}
+            Me gusta entrenar y hacer música… bueno, por lo menos intentarlo.
+            Toco la guitarra y canto hace tiempo y es otro pilar importantísimo
+            en mi vida
           </p>
         </div>
       </div>

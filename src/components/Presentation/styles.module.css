@@ -1,6 +1,6 @@
 .presentation {
   display: inline-block;
-  margin: 80px 30px;
+  margin: 80px 30px 0 30px;
   padding: 50px;
   background-image: linear-gradient(to bottom right, #faed7d, #b5ead7);
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;

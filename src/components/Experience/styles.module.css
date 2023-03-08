@@ -39,8 +39,9 @@
 .details {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
   justify-content: center;
+  margin-left: 20%;
 }
 
 .details ul li {
