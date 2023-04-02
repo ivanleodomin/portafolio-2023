@@ -1,47 +1,50 @@
 .content {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: rgba(30, 32, 44, 0.95);
-  padding: 10px 50px;
-  margin: 30px 50px;
-  border-radius: 20px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-  color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: rgba(30, 32, 44, 0.95);
+	padding: 10px 50px;
+	margin: 30px 50px;
+	border-radius: 20px;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+	color: #fff;
 }
 
 .titles {
-  text-align: center;
-  font-size: 30px;
+	text-align: center;
+	font-size: 30px;
 }
 
 .info h3 {
-  font-size: 30px;
-  background-image: linear-gradient(to bottom, #faed7d, #b5ead7);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+	font-size: 30px;
+	background-image: linear-gradient(to bottom, #faed7d, #b5ead7);
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 .info p {
-  font-size: 20px;
+	font-size: 20px;
 }
 
-.info a {
-  font-size: 15px;
-  font-weight: bold;
-  transition: 0.5s;
+.info a,
+.info span {
+	font-size: 15px;
+	font-weight: bold;
+	transition: 0.5s;
 }
 
-.info a:hover {
-  border-bottom: 1px solid #000;
+.info a:hover,
+.info span:hover {
+	border-bottom: 1px solid #fff;
+	cursor: pointer;
 }
 
 .image {
-  transform: rotate(-7deg);
-  transition: all 0.3s;
+	transform: rotate(-7deg);
+	transition: all 0.3s;
 }
 
 .content:hover .image {
-  height: 150px;
-  width: 150px;
+	height: 150px;
+	width: 150px;
 }

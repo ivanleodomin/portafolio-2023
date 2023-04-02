@@ -3,9 +3,18 @@ import styles from './styles.module.css';
 import {AiFillGithub, AiFillLinkedin} from 'react-icons/ai';
 import {SiGmail} from 'react-icons/si';
 import useCopyToClipboard from '@/hooks/useCopyToClipboard';
+import {useState} from 'react';
+import {toast} from 'react-hot-toast';
 
 export default function Footer() {
 	const [_, handleCopy] = useCopyToClipboard();
+
+	const [msg, setMsg] = useState('');
+
+	const handleSubmit = (event: any): void => {
+		event.preventDefault();
+		toast.success('mesaje enviado, gracias!');
+	};
 
 	return (
 		<footer className={styles.footer}>
@@ -29,9 +38,14 @@ export default function Footer() {
 					</Link>
 				</div>
 			</div>
-			<form className={styles.form}>
+			<form className={styles.form} onSubmit={handleSubmit}>
 				<label htmlFor=''>Ves alguna mejora?</label>
-				<input type='text' name='' id='' />
+				<input
+					type='text'
+					value={msg}
+					onChange={e => setMsg(e.target.value)}
+				/>
+				<button type='submit'>Enviar</button>
 			</form>
 		</footer>
 	);

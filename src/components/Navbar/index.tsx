@@ -1,4 +1,6 @@
+/* eslint-disable react-hooks/rules-of-hooks */
 import styles from './styles.module.css';
+import useScroll from '@/hooks/useScroll';
 import MenuIcon from '../MenuIcon';
 import useToggle from '@/hooks/useToggle';
 import Logo from '../Logo';
@@ -19,11 +21,15 @@ export default function Navbar() {
 				></div>
 				<div className={styles.sidebar}>
 					<ul>
-						<li>Inicio</li>
-						<li>Expreriencia</li>
-						<li>Proyectos</li>
-						<li>Expreriencia</li>
-						<li>Contacto</li>
+						<li onClick={() => useScroll('presentation')}>
+							Inicio
+						</li>
+						<li onClick={() => useScroll('skills')}>habilidades</li>
+						<li onClick={() => useScroll('experience')}>
+							Expreriencia
+						</li>
+						<li onClick={() => useScroll('about')}>Sobre mí</li>
+						<li onClick={() => useScroll('projects')}>Proyectos</li>
 					</ul>
 				</div>
 			</nav>

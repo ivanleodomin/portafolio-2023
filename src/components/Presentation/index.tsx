@@ -9,7 +9,7 @@ export default function Presentation() {
 	const [_, handleCopy] = useCopyToClipboard();
 
 	return (
-		<section className={styles.presentation}>
+		<section id='presentation' className={styles.presentation}>
 			<TwitterPicture />
 			<div className={styles.titles}>
 				<h3>¡Hola! Bienvenido a mi portafolio</h3>
