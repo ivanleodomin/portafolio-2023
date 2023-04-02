@@ -1,76 +1,77 @@
 .presentation {
-  display: inline-block;
-  margin: 80px 30px 0 30px;
-  padding: 50px;
-  background-image: linear-gradient(to bottom right, #faed7d, #b5ead7);
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-  background-size: 200% 200%;
-  animation: wave 2s infinite;
-  border-radius: 50px;
-  min-height: 300px;
+	display: inline-block;
+	margin: 80px 30px 0 30px;
+	padding: 50px;
+	background-image: linear-gradient(to bottom right, #faed7d, #b5ead7);
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+	background-size: 200% 200%;
+	animation: wave 2s infinite;
+	border-radius: 50px;
+	min-height: 300px;
 }
 
 @keyframes wave {
-  0% {
-    background-position: 0 0;
-  }
-  50% {
-    background-position: 100% 100%;
-  }
-  100% {
-    background-position: 0 0;
-  }
+	0% {
+		background-position: 0 0;
+	}
+	50% {
+		background-position: 100% 100%;
+	}
+	100% {
+		background-position: 0 0;
+	}
 }
 
 .titles {
-  margin-left: 50px;
-  margin-top: 20px;
+	margin-left: 50px;
+	margin-top: 20px;
 }
 
 .titles h3 {
-  font-size: 1.5em;
-  text-align: center;
-  margin-bottom: 26px;
+	font-size: 1.5em;
+	text-align: center;
+	margin-bottom: 26px;
 }
 
 .titles p {
-  font-size: 2.8rem;
-  font-weight: 100;
+	font-size: 2.8rem;
+	font-weight: 100;
 }
 
 .divider {
-  border-top: 1px solid #bbb;
-  width: 70vw;
-  margin: 0;
-  position: absolute;
-  left: 15%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+	border-top: 1px solid #bbb;
+	width: 70vw;
+	margin: 0;
+	position: absolute;
+	left: 15%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
 }
 
 .buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 30px;
-  margin-bottom: 40px;
-  font-size: 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	font-size: 1rem;
 }
 
 .contactButton {
-  margin-right: 30px;
-  background-color: #000;
-  padding: 15px;
-  border-radius: 16px;
-  color: white;
+	margin-right: 30px;
+	background-color: #000;
+	padding: 15px;
+	border-radius: 16px;
+	color: white;
+	cursor: pointer;
 }
 
 .resumeButton {
-  background-color: none;
-  border: 1px solid #000;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-  border-radius: 16px;
+	background-color: none;
+	border: 1px solid #000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+	border-radius: 16px;
 }
